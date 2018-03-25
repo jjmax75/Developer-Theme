@@ -2,8 +2,18 @@
 I want to use this theme for my own personal site and just needed to change a few things
 - remove jquery - use vanilla JS
 - remove Bootstrap - use Flexbox
+- remove Font Awesome
 
-Browser support Chrome/Safari/Firefox/Edge/IE11+
+## TODO
+- Fix download SVG and Paper Plane
+- Check all icon sizes and layout
+
+## Browser support
+- Chrome
+- Safari
+- Firefox
+- Edge
+- IE11
 
 <a href="http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/" target="_blank"><img src="http://themes.3rdwavemedia.com/wp-content/uploads/2014/07/Responsive-HTML5-CSS3-Website-Template-for-Developers.png" alt="Developer Theme" width="750" /></a>
 
