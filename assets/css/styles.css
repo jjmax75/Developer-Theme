@@ -112,6 +112,22 @@ a.dotted-link:hover {
   margin-right: auto;
   margin-left: auto;
   display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.primary.col {
+  flex: 2;
+  margin: 0 15px;
+}
+
+.secondary.col {
+  flex: 1;
+  margin: 0 15px;
 }
 
 @media (min-width: 768px){
@@ -121,9 +137,15 @@ a.dotted-link:hover {
 }
 
 @media (min-width: 992px){
+
   .grid {
     width: 970px;
+    flex-direction: row;
   }
+  .row {
+    flex-direction: row;
+  }
+
 }
 
 @media (min-width: 1200px){
@@ -143,14 +165,22 @@ a.dotted-link:hover {
   background: #f5f5f5;
   border-top: 10px solid #778492;
 }
-.header .grid {
-  justify-content: flex-start;
-  align-items: flex-end;
-}
+
 .header .btn {
-  margin-top: 60px;
-  font-weight: bold;
-  margin-left: auto;
+  align-self: center;
+}
+
+@media (min-width: 992px){
+  .header .grid {
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .header .btn {
+    align-self: center;
+    font-weight: bold;
+    margin-left: auto;
+  }
+
 }
 .header .profile-image {
   width: 180px;
@@ -563,7 +593,8 @@ ul.social, .social li {
   color: #fb866a;
 }
 /* Extra small devices (phones, less than 768px) */
-@media (max-width: 767px) {
+
+@media (max-width: 991px) {
   .header {
     text-align: center;
   }
@@ -574,6 +605,7 @@ ul.social, .social li {
   .header .profile-content {
     float: none !important;
     text-align: center;
+    align-self: center;
   }
   .header .btn {
     margin-top: 30px;
