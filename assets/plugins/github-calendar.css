@@ -1,5 +1,4 @@
 .calendar {
-    width: 750px;
     font-family: Helvetica, arial;
     border: 1px solid #DDDDDD;
     border-radius: 3px;
@@ -43,7 +42,6 @@
 
 .calendar-graph {
     padding: 5px 0 0;
-    height: 126px;
     text-align: center;
 }
 
@@ -113,4 +111,12 @@
 .left.text-muted a:hover,
 .monospace a:hover {
     text-decoration: underline;
+}
+
+h2.f4.text-normal.mb-3 {
+    display: none;
+}
+
+.float-left.text-gray {
+    float: left;
 }

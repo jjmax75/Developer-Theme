@@ -5,8 +5,12 @@ I want to use this theme for my own personal site and just needed to change a fe
 - remove Font Awesome
 
 ## TODO
+- remove Bootstrap
+- remove jquery
 - Fix download SVG and Paper Plane
 - Check all icon sizes and layout
+- Mobile
+- Check browsers
 
 ## Browser support
 - Chrome

@@ -48,7 +48,7 @@ a.btn {
   -o-transition: all 0.4s ease-in-out;
   font-family: 'Montserrat', arial, sans-serif;
   padding: 8px 16px;
-  font-weight: bold;
+  font-weight: 700;
 }
 .btn img,
 a.btn img {
@@ -300,7 +300,7 @@ ul.social, .social li {
   width: 158px;
   padding: 10px 10px;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
@@ -475,7 +475,7 @@ ul.social, .social li {
   font-family: "Lato", arial, sans-serif;
   font-size: 13px;
   color: #999;
-  font-weight: 600;
+  font-weight: 700;
   padding-left: 25px;
 }
 .education .item .university .year {
